@@ -1,0 +1,214 @@
+[{
+		"kategoriAd": "Hip-Hop",
+		"kategoriResim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/hiphop/hiphop.jpg",
+		"muzikler": [{
+				"muzikAdi": "In Da Club",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/hiphop/50cent-in_da_clup.jpg",
+				"sarkici": "50 Cent",
+				"muzikDetay": {
+					"cikisYili": "2003",
+					"süresi": "4:07",
+					"dinlenmeSayisi": "730.314.188"
+				}
+			},
+			{
+				"muzikAdi": "Without Me",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/hiphop/eminem-without_me.png",
+				"sarkici": "Eminem",
+				"muzikDetay": {
+					"cikisYili": "2020",
+					"süresi": "4:50",
+					"dinlenmeSayisi": "818.729.288"
+				}
+			},
+			{
+				"muzikAdi": "Till I Collapse",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/hiphop/eminem-till_i_collapse.jpg",
+				"sarkici": "Eminem,Nate Dogg",
+				"muzikDetay": {
+					"cikisYili": "2002",
+					"süresi": "4:57",
+					"dinlenmeSayisi": "1.065.684.863"
+				}
+			}
+		]
+	},
+	{
+		"kategoriAd": "Jazz",
+		"kategoriResim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/jazz/jazz.jpg",
+		"muzikler": [{
+				"muzikAdi": "Blue Moon",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/jazz/billie_holiday-blue_moon.jpg",
+				"sarkici": "Billie Holiday",
+				"muzikDetay": {
+					"cikisYili": "1952",
+					"süresi": "3:27",
+					"dinlenmeSayisi": "22.672.302"
+				}
+			},
+			{
+				"muzikAdi": "Autumn Leaves",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/jazz/chet_baker-autumn-leaves.jpg",
+				"sarkici": "Chet Baker",
+				"muzikDetay": {
+					"cikisYili": "",
+					"süresi": "7:04",
+					"dinlenmeSayisi": "44.981.999"
+				}
+			},
+			{
+				"muzikAdi": "Midnight Blue",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/jazz/kenny_burrell-chitlins-con-carne.jpg",
+				"sarkici": "Kenny Burrell",
+				"muzikDetay": {
+					"cikisYili": "1963",
+					"süresi": "4:02",
+					"dinlenmeSayisi": "12.967.494"
+				}
+			}
+		]
+	},
+	{
+		"kategoriAd": "Metal",
+		"kategoriResim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/metal/metal.jpg",
+		"muzikler": [{
+				"muzikAdi": "Enter Sandman",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/metal/metallica-enter_sandman.jpg",
+				"sarkici": "Metallica",
+				"muzikDetay": {
+					"cikisYili": "1991",
+					"süresi": "5:31",
+					"dinlenmeSayisi": "669.219.202"
+				}
+			},
+			{
+				"muzikAdi": "Dark Side",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/metal/blind_channel-dark_side.jpg",
+				"sarkici": "Blind Channel",
+				"muzikDetay": {
+					"cikisYili": "2021",
+					"süresi": "2:57",
+					"dinlenmeSayisi": "16.151.235"
+				}
+			},
+			{
+				"muzikAdi": "The Devil In I",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/metal/slipknot-the_devil_in-i.jpg",
+				"sarkici": "Slipknot",
+				"muzikDetay": {
+					"cikisYili": "2014",
+					"süresi": "5:42",
+					"dinlenmeSayisi": "206.292.918"
+				}
+			}
+		]
+	},
+	{
+		"kategoriAd": "Rock",
+		"kategoriResim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/rock-klasik/rock-klasik.jpg",
+		"muzikler": [{
+				"muzikAdi": "High Hopes",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/rock-klasik/pink_floyd-high-hopes.jpg",
+				"sarkici": "Pink Floyd",
+				"muzikDetay": {
+					"cikisYili": "1994",
+					"süresi": "7:48",
+					"dinlenmeSayisi": "85.154.512"
+				}
+			},
+			{
+				"muzikAdi": "Bohemian Rhapsody",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/rock-klasik/queen-bohemian_rhapsody.jpg",
+				"sarkici": "Queen",
+				"muzikDetay": {
+					"cikisYili": "1979",
+					"süresi": "5:59",
+					"dinlenmeSayisi": "1.328.967.772"
+				}
+			},
+			{
+				"muzikAdi": "Thunderstruck",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/rock-klasik/ACDC-thunderstruck.jpg",
+				"sarkici": "AC/DC",
+				"muzikDetay": {
+					"cikisYili": "1990",
+					"süresi": "4:52",
+					"dinlenmeSayisi": "924.598.634"
+				}
+			}
+		]
+	},
+	{
+		"kategoriAd": "Türkçe Pop",
+		"kategoriResim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcepop/turkcepop.jpg",
+		"muzikler": [{
+				"muzikAdi": "Kuzu Kuzu",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcepop/tarkan-kuzu_kuzu.jpg",
+				"sarkici": "Tarkan",
+				"muzikDetay": {
+					"cikisYili": "2001",
+					"süresi": "3:53",
+					"dinlenmeSayisi": "24.295.345"
+				}
+			},
+			{
+				"muzikAdi": "Dansöz",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcepop/serdar_ortac-dansoz.jpg",
+				"sarkici": "Serdar Ortaç",
+				"muzikDetay": {
+					"cikisYili": "2006",
+					"süresi": "5:50",
+					"dinlenmeSayisi": "13.685.302"
+				}
+			},
+			{
+				"muzikAdi": "Çakkıdı",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcepop/kenan_dogulu-cakkidi.jpg",
+				"sarkici": "Kenan Doğulu",
+				"muzikDetay": {
+					"cikisYili": "2006",
+					"süresi": "3:19",
+					"dinlenmeSayisi": "12.655.554"
+				}
+			}
+		]
+	},
+	{
+		"kategoriAd": "Türkçe Rap",
+		"kategoriResim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcerap/turkcerap.jpg",
+		"muzikler": [{
+				"muzikAdi": "Neyim Var ki",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcerap/ceza-neyim_var_ki.jpg",
+				"sarkici": "Ceza-Sagopa K",
+				"muzikDetay": {
+					"cikisYili": "2004",
+					"süresi": "3:26",
+					"dinlenmeSayisi": "89.751.163"
+				}
+			},
+			{
+				"muzikAdi": "Gölge Haramileri",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcerap/sagopa_kajmer-golge_haramileri.jpg",
+				"sarkici": "Sagopa Kajmer",
+				"muzikDetay": {
+					"cikisYili": "2008",
+					"süresi": "5:28",
+					"dinlenmeSayisi": "20.786.007"
+				}
+			},
+			{
+				"muzikAdi": "KAFA10",
+				"resim": "https://raw.githubusercontent.com/yigitalasoy/Spotify/main/images/turkcerap/anil_piyanci_ezhel-kafa10.jpg",
+				"sarkici": "Anıl Piyancı-Ezhel",
+				"muzikDetay": {
+					"cikisYili": "2018",
+					"süresi": "4:14",
+					"dinlenmeSayisi": "4.457.938"
+				}
+			}
+		]
+	}
+
+
+
+]
