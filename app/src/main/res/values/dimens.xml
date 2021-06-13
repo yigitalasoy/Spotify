@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashLogoHeight">202dp</dimen>
+    <dimen name="splashLogoWidth">202dp</dimen>
+
+    <dimen name="loginLogoHeight">150dp</dimen>
+    <dimen name="loginLogoWidth">150dp</dimen>
+    <dimen name="loginLogoMarginTop">100dp</dimen>
+
+    <dimen name="loginEPostaTextViewTextSize">25dp</dimen>
+    <dimen name="loginEPostaEditTextTextSize">18dp</dimen>
+    <dimen name="loginEPostaEditTextPaddingLeft">10dp</dimen>
+    <dimen name="loginEPostaEditTextPaddingRight">10dp</dimen>
+
+    <dimen name="loginParolaTextViewTextSize">25dp</dimen>
+    <dimen name="loginParolaEditTextTextSize">18dp</dimen>
+    <dimen name="loginParolaTextViewMarginTop">20dp</dimen>
+    <dimen name="loginParolaTextViewMarginBottom">5dp</dimen>
+
+    <dimen name="loginEditTextEPostaWidth">300dp</dimen>
+    <dimen name="loginEditTextEPostaHeight">40dp</dimen>
+
+    <dimen name="loginTextViewEPostaMarginBottom">15dp</dimen>
+    <dimen name="loginEditTextEPostaMarginTop">80dp</dimen>
+
+    <dimen name="loginEditTextParolaWidth">300dp</dimen>
+    <dimen name="loginEditTextParolaHeight">40dp</dimen>
+    <dimen name="loginEditTextParolaPaddingLeft">10dp</dimen>
+    <dimen name="loginEditTextParolaPaddingRight">10dp</dimen>
+
+    <dimen name="loginButtonOturumAcMarginTop">70dp</dimen>
+    <dimen name="loginButtonOturumAcTextSize">18sp</dimen>
+
+    <dimen name="btnOturumAcRadius">30dp</dimen>
+    <dimen name="btnOturumAcPadding">0dp</dimen>
+    <dimen name="btnOturumAcWidth">250dp</dimen>
+    <dimen name="btnOturumAcHeight">60dp</dimen>
+
+    <dimen name="editTextCursorWidth">1.5dp</dimen>
+
+    <dimen name="switchBoyut">-1dp</dimen>
+    <dimen name="switchShapeCornerRadius">10dp</dimen>
+    <dimen name="switchShapeSizeHeight">25dp</dimen>
+
+    <dimen name="editTextGriPadding">0dp</dimen>
+    <dimen name="editTextGriWidth">300dp</dimen>
+    <dimen name="editTextGriHeight">60dp</dimen>
+    <dimen name="editTextGriRadius">5dp</dimen>
+
+    <dimen name="searchview_Design_Radius">10dp</dimen>
+
+    <dimen name="seekbarThumbHeight">0dp</dimen>
+    <dimen name="seekbarThumbWidth">0dp</dimen>
+
+    <dimen name="spinnerDesignCornerRadius">10dp</dimen>
+
+    <dimen name="gridOnWidth">24dp</dimen>
+    <dimen name="gridOnHeight">24dp</dimen>
+
+    <dimen name="keyboardArrowWidth">24dp</dimen>
+    <dimen name="keyboardArrowHeight">24dp</dimen>
+
+    <dimen name="tableRowsHeight">24dp</dimen>
+    <dimen name="tableRowsWidth">24dp</dimen>
+
+    <dimen name="kategoriActivityAraTextViewMarginStart">13dp</dimen>
+    <dimen name="kategoriActivityAraTextViewMarginTop">35dp</dimen>
+    <dimen name="kategoriActivityAraTextViewMarginBottom">15dp</dimen>
+    <dimen name="kategoriActivityAraTextViewTextSize">23dp</dimen>
+
+    <dimen name="kategoriActivitySearchViewHeight">35dp</dimen>
+    <dimen name="kategoriActivitySearchViewWidth">385dp</dimen>
+    <dimen name="kategoriActivitySearchViewMarginStart">13dp</dimen>
+    <dimen name="kategoriActivitySearchViewMarginTop">15dp</dimen>
+    <dimen name="kategoriActivitySearchViewMarginEnd">35dp</dimen>
+    <dimen name="kategoriActivityNestedViewMarginTop">20dp</dimen>
+
+    <dimen name="kategoriActivityImageKameraWidth">32dp</dimen>
+    <dimen name="kategoriActivityImageKameraHeight">32dp</dimen>
+
+    <dimen name="recyclerViewKategorilerHeight">600dp</dimen>
+
+    <dimen name="muzikActivitySwitchHeight">35dp</dimen>
+    <dimen name="muzikActivitySwitchMarginEnd">15dp</dimen>
+    <dimen name="muzikActivityTextViewListelemeWidth">90dp</dimen>
+    <dimen name="muzikActivityTextViewListelemeTextSize">19dp</dimen>
+
+    <dimen name="muzikActivityTextViewMuziklerTextSize">23dp</dimen>
+    <dimen name="muzikActivityTextViewMuziklerMarginTop">35dp</dimen>
+    <dimen name="muzikActivityTextViewMuziklerMarginStart">13dp</dimen>
+
+    <dimen name="muzikActivitySpinnerSiralamaTuruWidth">200dp</dimen>
+    <dimen name="muzikActivitySpinnerSiralamaTuruHeight">35dp</dimen>
+    <dimen name="muzikActivitySpinnerSiralamaTuruMarginTop">15dp</dimen>
+    <dimen name="muzikActivitySpinnerSiralamaTuruPaddingStart">5dp</dimen>
+
+    <dimen name="muzikActivityRecyclerViewMuziklerMarginTop">20dp</dimen>
+
+    <dimen name="muzikDetayActivityImageViewMuzikWidth">350dp</dimen>
+    <dimen name="muzikDetayActivityImageViewMuzikHeight">350dp</dimen>
+    <dimen name="muzikDetayActivityImageViewMuzikMarginTop">100dp</dimen>
+
+    <dimen name="muzikDetayActivityTextViewMuzikAdiMarginStart">15dp</dimen>
+    <dimen name="muzikDetayActivityTextViewMuzikAdiMarginTop">15dp</dimen>
+    <dimen name="muzikDetayActivityTextViewMuzikAdiTextSize">19dp</dimen>
+    <dimen name="muzikDetayActivityTextViewSarkiciTextSize">16dp</dimen>
+    <dimen name="muzikDetayActivityTextViewCikisYiliTextSize">19dp</dimen>
+    <dimen name="muzikDetayActivityTextViewCikisYiliMarginTop">30dp</dimen>
+    <dimen name="muzikDetayActivityTextViewDinlenmeSayisiMarginTop">30dp</dimen>
+    <dimen name="muzikDetayActivityTextViewDinlenmeSayisiTextSize">19dp</dimen>
+    <dimen name="muzikDetayActivityTextViewIkiNoktaTextSize">10dp</dimen>
+    <dimen name="muzikDetayActivityTextViewAnlikSureDakikaMarginStart">15dp</dimen>
+    <dimen name="muzikDetayActivityTextViewAnlikSureDakikaTextSize">10dp</dimen>
+
+    <dimen name="activityMuzikDetayTextViewAnlikSureSaniyeTextSize">10dp</dimen>
+    <dimen name="activityMuzikDetayTextViewSeekBarWidth">410dp</dimen>
+    <dimen name="activityMuzikDetayTextViewSeekBarHeight">10dp</dimen>
+    <dimen name="activityMuzikDetayTextViewSeekBarMarginTop">20dp</dimen>
+    <dimen name="activityMuzikDetayTextViewSeekBarMarginEnd">15dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewPauseWidth">70dp</dimen>
+    <dimen name="activityMuzikDetayImageViewPauseHeight">70dp</dimen>
+    <dimen name="activityMuzikDetayImageViewPauseMarginTop">18dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewSonrakiWidth">50dp</dimen>
+    <dimen name="activityMuzikDetayImageViewSonrakiHeight">50dp</dimen>
+    <dimen name="activityMuzikDetayImageViewSonrakiMarginStart">25dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewOncekiWidth">50dp</dimen>
+    <dimen name="activityMuzikDetayImageViewOncekiHeight">50dp</dimen>
+    <dimen name="activityMuzikDetayImageViewOncekiMarginEnd">25dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewEngelleWidth">30dp</dimen>
+    <dimen name="activityMuzikDetayImageViewEngelleHeight">30dp</dimen>
+    <dimen name="activityMuzikDetayImageViewEngelleMarginStart">37dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewKaristirWidth">30dp</dimen>
+    <dimen name="activityMuzikDetayImageViewKaristirHeight">30dp</dimen>
+    <dimen name="activityMuzikDetayImageViewKaristirMarginEnd">37dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewPaylasMarginTop">50dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewCihazPaylasMarginTop">50dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewGeriMarginTop">13dp</dimen>
+
+    <dimen name="activityMuzikDetayImageViewNoktalarMarginTop">13dp</dimen>
+
+    <dimen name="activityMuzikDetayTextViewMaxSureSaniyeHeight">14dp</dimen>
+    <dimen name="activityMuzikDetayTextViewMaxSureSaniyeMarginEnd">15dp</dimen>
+
+    <dimen name="ic_baseline_block_24_Height">32dp</dimen>
+    <dimen name="ic_baseline_block_24_Width">32dp</dimen>
+
+    <dimen name="ic_baseline_devices_24_Height">24dp</dimen>
+    <dimen name="ic_baseline_devices_24_Width">24dp</dimen>
+
+    <dimen name="ic_baseline_favorite_24_Height">24dp</dimen>
+    <dimen name="ic_baseline_favorite_24_Width">24dp</dimen>
+
+    <dimen name="ic_baseline_favorite_border_24_Height">24dp</dimen>
+    <dimen name="ic_baseline_favorite_border_24_Width">24dp</dimen>
+
+    <dimen name="ic_baseline_share_24_Height">24dp</dimen>
+    <dimen name="ic_baseline_share_24_Width">24dp</dimen>
+
+    <dimen name="ic_baseline_keyboard_arrow_down_24_Height">32dp</dimen>
+    <dimen name="ic_baseline_keyboard_arrow_down_24_Width">32dp</dimen>
+
+    <dimen name="ic_baseline_more_horiz_24_Height">24dp</dimen>
+    <dimen name="ic_baseline_more_horiz_24_Width">24dp</dimen>
+
+    <dimen name="ic_baseline_pause_circle_filled_24_Height">32dp</dimen>
+    <dimen name="ic_baseline_pause_circle_filled_24_Width">32dp</dimen>
+
+    <dimen name="ic_baseline_photo_camera_24_Height">24dp</dimen>
+    <dimen name="ic_baseline_photo_camera_24_Width">24dp</dimen>
+
+    <dimen name="ic_baseline_play_circle_filled_24_Height">32dp</dimen>
+    <dimen name="ic_baseline_play_circle_filled_24_Width">32dp</dimen>
+
+    <dimen name="ic_baseline_skip_next_24_Height">32dp</dimen>
+    <dimen name="ic_baseline_skip_next_24_Width">32dp</dimen>
+
+    <dimen name="ic_baseline_skip_previous_24_Height">32dp</dimen>
+    <dimen name="ic_baseline_skip_previous_24_Width">32dp</dimen>
+
+    <dimen name="ic_baseline_background_Width">108dp</dimen>
+    <dimen name="ic_baseline_background_Height">108dp</dimen>
+
+    <dimen name="ic_shuffle_24_Height">32dp</dimen>
+    <dimen name="ic_shuffle_24_Width">32dp</dimen>
+
+    <dimen name="muzikActivityRecyclerViewMarginTop">35dp</dimen>
+
+    <dimen name="kategoriCardViewItemCornerRadius">15dp</dimen>
+
+    <dimen name="kategoriCardViewItemImageViewKategoriImageWidth">100dp</dimen>
+    <dimen name="kategoriCardViewItemImageViewKategoriImageHeight">100dp</dimen>
+
+    <dimen name="kategoriCardViewItemTextViewKategoriAdiWidth">90dp</dimen>
+    <dimen name="kategoriCardViewItemTextViewKategoriAdiMarginLeft">10dp</dimen>
+    <dimen name="kategoriCardViewItemTextViewKategoriAdiTextSize">20dp</dimen>
+
+    <dimen name="kategoriCardViewItemCardViewKategoriWidth">190dp</dimen>
+    <dimen name="kategoriCardViewItemCardViewKategoriHeight">100dp</dimen>
+
+    <dimen name="kategoriCardViewItemImageViewKategoriWidth">80dp</dimen>
+    <dimen name="kategoriCardViewItemImageViewKategoriHeight">80dp</dimen>
+
+    <dimen name="kategoriCardViewItemTextViewKategoriAdiMarginStart">10dp</dimen>
+    <dimen name="kategoriCardViewItemTextViewKategoriAdiMarginTop">5dp</dimen>
+
+    <dimen name="kategoriCardViewItemConstraintLayoutMargin">8dp</dimen>
+
+
+    <dimen name="muzikCardViewItemMargin">5dp</dimen>
+    <dimen name="muzikCardViewItemTextViewSarkiciTextSize">20dp</dimen>
+    <dimen name="muzikCardViewItemTextViewSarkiciMarginStart">10dp</dimen>
+    <dimen name="muzikCardViewItemImageViewMuzikWidth">100dp</dimen>
+    <dimen name="muzikCardViewItemImageViewMuzikHeight">100dp</dimen>
+    <dimen name="muzikCardViewItemTextViewMuzikAdiMarginTop">5dp</dimen>
+    <dimen name="muzikCardViewItemTextViewMuzikAdiTextSize">20dp</dimen>
+    <dimen name="muzikCardViewItemTextViewSarkiciMarginTop">10dp</dimen>
+
+
+
+
+
+
+
+
+</resources>

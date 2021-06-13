@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="@dimen/loginLogoWidth"
+        android:layout_height="@dimen/loginLogoHeight"
+        android:layout_marginTop="@dimen/loginLogoMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/loginTextViewEPostaMarginBottom"
+        android:text="@string/loginActivityTextViewEPosta"
+        android:textColor="@color/white"
+        android:textSize="@dimen/loginEPostaTextViewTextSize"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEPosta"
+        app:layout_constraintStart_toStartOf="@+id/editTextEPosta" />
+
+    <EditText
+        android:id="@+id/editTextEPosta"
+        android:layout_width="@dimen/loginEditTextEPostaWidth"
+        android:layout_height="@dimen/loginEditTextEPostaHeight"
+        android:layout_marginTop="@dimen/loginEditTextEPostaMarginTop"
+        android:background="@drawable/edit_text_gri"
+        android:paddingLeft="@dimen/loginEPostaEditTextPaddingLeft"
+        android:paddingRight="@dimen/loginEPostaEditTextPaddingRight"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="@dimen/loginEPostaEditTextTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginParolaTextViewMarginTop"
+        android:layout_marginBottom="@dimen/loginParolaTextViewMarginBottom"
+        android:text="@string/loginActivityTextViewParola"
+        android:textColor="@color/white"
+        android:textSize="@dimen/loginParolaTextViewTextSize"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayoutParola"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayoutParola"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEPosta" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutParola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/editTextParola"
+            android:layout_width="@dimen/loginEditTextParolaWidth"
+            android:layout_height="@dimen/loginEditTextParolaHeight"
+            android:background="@drawable/edit_text_gri"
+            android:drawableRight="@drawable/invisible"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/loginEditTextParolaPaddingLeft"
+            android:paddingRight="@dimen/loginEditTextParolaPaddingRight"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/loginParolaEditTextTextSize" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/buttonOturumAc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginButtonOturumAcMarginTop"
+        android:background="@drawable/btn_oturum_ac"
+        android:text="@string/loginActivityButtonOturumAc"
+        android:textSize="@dimen/loginButtonOturumAcTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayoutParola"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayoutParola"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutParola" />
+</androidx.constraintlayout.widget.ConstraintLayout>

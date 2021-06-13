@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="@dimen/editTextGriRadius"
+        />
+    <solid
+        android:color="@color/objectGrayColor"
+        />
+    <padding
+        android:left="@dimen/editTextGriPadding"
+        android:top="@dimen/editTextGriPadding"
+        android:right="@dimen/editTextGriPadding"
+        android:bottom="@dimen/editTextGriPadding"
+        />
+    <size
+        android:width="@dimen/editTextGriWidth"
+        android:height="@dimen/editTextGriHeight"
+        />
+</shape>

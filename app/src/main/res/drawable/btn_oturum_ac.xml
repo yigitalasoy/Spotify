@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="@dimen/btnOturumAcRadius"
+        />
+    <solid
+        android:color="@color/objectGrayColor"
+        />
+    <padding
+        android:left="@dimen/btnOturumAcPadding"
+        android:top="@dimen/btnOturumAcPadding"
+        android:right="@dimen/btnOturumAcPadding"
+        android:bottom="@dimen/btnOturumAcPadding"
+        />
+    <size
+        android:width="@dimen/btnOturumAcWidth"
+        android:height="@dimen/btnOturumAcHeight"
+        />
+</shape>

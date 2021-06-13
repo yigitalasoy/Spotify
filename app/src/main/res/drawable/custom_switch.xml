@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="@dimen/switchBoyut"
+        android:end="@dimen/switchBoyut"
+        android:gravity="center_vertical|fill_horizontal"
+        android:start="@dimen/switchBoyut"
+        android:top="@dimen/switchBoyut">
+        <shape>
+            <solid android:color="@android:color/darker_gray" />
+            <corners android:radius="@dimen/switchShapeCornerRadius" />
+            <size android:height="@dimen/switchShapeSizeHeight" />
+        </shape>
+    </item>
+</layer-list>

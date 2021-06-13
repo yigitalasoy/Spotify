@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Spotify</string>
+
+    <string-array name="siralamaTurleri">
+        <item>İsme göre artan</item>
+        <item>İsme göre azalan</item>
+    </string-array>
+
+    <string name="internetKontrolAlertDialogTitle">İnternet bağlantınız yok.</string>
+    <string name="internetKontrolAlertDialogMessage">Uygulamayı kullanabilmek için internete bağlanın</string>
+    <string name="internetKontrolAlertDialogPositiveButtonText">İNTERNETİ AÇ</string>
+    <string name="internetKontrolAlertDialogNegativeButtonText">KAPAT</string>
+
+    <string name="kategoriActivitySearchViewQuery">Sanatçılar, şarkılar veya podcastler</string>
+
+    <string name="activityMuzikDetayTextViewMuzikAdiText">Müzik Adı</string>
+    <string name="activityMuzikDetayTextViewSarkiciText">Şarkıcı</string>
+    <string name="activityMuzikDetayTextViewCikisYiliText">Çıkış yılı</string>
+    <string name="activityMuzikDetayTextViewDinlenmeSayisiText">dinlenme sayısı</string>
+    <string name="activityMuzikDetayTextViewAnlikSureDakika">0</string>
+    <string name="activityMuzikDetayTextViewAnlikSureSaniye">00</string>
+
+    <string name="activityMuzikDetayTextViewIkiNokta">:</string>
+
+
+
+    <string name="cikisYapAlertDialogTitle">Çıkış</string>
+    <string name="cikisYapAlertDialogMessage">Çıkış yapmak istiyor musunuz ?</string>
+    <string name="cikisYapAlertDialogPositiveButtonText">EVET</string>
+    <string name="cikisYapAlertDialogNegativeButtonText">HAYIR</string>
+
+
+    <string name="loginActivityGirisBasariliText">Giriş başarılı</string>
+    <string name="loginActivityGirisBasarisizText">E-Mail veya Parola hatalı!</string>
+    <string name="loginActivityBosAlanText">Lütfen boş alan bırakmayınız!</string>
+    <string name="loginActivityTextViewParola">Parola</string>
+    <string name="loginActivityTextViewEPosta">E-posta adresi</string>
+    <string name="loginActivityButtonOturumAc">OTURUM AÇ</string>
+
+    <string name="muzikActivityListeleme">Listeleme</string>
+    <string name="muzikActivityMuzikler">Müzikler</string>
+
+    <string name="kategoriCardViewItemTextViewKategoriAdi">KATEGORİ ADI</string>
+
+    <string name="kategoriActivityTextViewAra">Ara</string>
+
+    <string name="progressDialogText">Veriler yüklenene kadar lütfen bekleyiniz</string>
+
+
+</resources>

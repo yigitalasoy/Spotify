@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.muzikdetay.MuzikDetayActivity">
+
+    <ImageView
+        android:id="@+id/imageViewMuzik"
+        android:layout_width="@dimen/muzikDetayActivityImageViewMuzikWidth"
+        android:layout_height="@dimen/muzikDetayActivityImageViewMuzikHeight"
+        android:layout_marginTop="@dimen/muzikDetayActivityImageViewMuzikMarginTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewMuzikAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/muzikDetayActivityTextViewMuzikAdiMarginStart"
+        android:layout_marginTop="@dimen/muzikDetayActivityTextViewMuzikAdiMarginTop"
+        android:text="@string/activityMuzikDetayTextViewMuzikAdiText"
+        android:textColor="@color/white"
+        android:textSize="@dimen/muzikDetayActivityTextViewMuzikAdiTextSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMuzik" />
+
+    <TextView
+        android:id="@+id/textViewSarkici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityMuzikDetayTextViewSarkiciText"
+        android:textColor="@color/white"
+        android:textSize="@dimen/muzikDetayActivityTextViewSarkiciTextSize"
+        app:layout_constraintStart_toStartOf="@+id/textViewMuzikAdi"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMuzikAdi" />
+
+    <TextView
+        android:id="@+id/textViewCikisYili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/muzikDetayActivityTextViewCikisYiliMarginTop"
+        android:text="@string/activityMuzikDetayTextViewCikisYiliText"
+        android:textColor="@color/white"
+        android:textSize="@dimen/muzikDetayActivityTextViewCikisYiliTextSize"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewMuzik"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMuzik"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDinlenmeSayisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/muzikDetayActivityTextViewDinlenmeSayisiMarginTop"
+        android:text="@string/activityMuzikDetayTextViewDinlenmeSayisiText"
+        android:textColor="@color/white"
+        android:textSize="@dimen/muzikDetayActivityTextViewDinlenmeSayisiTextSize"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewMuzik"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMuzik"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityMuzikDetayTextViewIkiNokta"
+        android:textColor="@color/white"
+        android:textSize="@dimen/muzikDetayActivityTextViewIkiNoktaTextSize"
+        app:layout_constraintStart_toEndOf="@+id/textViewAnlikSureDakika"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarMuzikSure" />
+
+    <TextView
+        android:id="@+id/textViewAnlikSureDakika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/muzikDetayActivityTextViewAnlikSureDakikaMarginStart"
+        android:text="@string/activityMuzikDetayTextViewAnlikSureDakika"
+        android:textColor="@color/white"
+        android:textSize="@dimen/muzikDetayActivityTextViewAnlikSureDakikaTextSize"
+        app:layout_constraintStart_toStartOf="@+id/seekBarMuzikSure"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarMuzikSure" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityMuzikDetayTextViewIkiNokta"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activityMuzikDetayTextViewAnlikSureSaniyeTextSize"
+        app:layout_constraintEnd_toStartOf="@+id/textViewMaxSureSaniye"
+        app:layout_constraintTop_toTopOf="@+id/textViewMaxSureSaniye" />
+
+    <TextView
+        android:id="@+id/textViewMaxSureDakika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityMuzikDetayTextViewAnlikSureDakika"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activityMuzikDetayTextViewAnlikSureSaniyeTextSize"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textViewMaxSureSaniye"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/activityMuzikDetayTextViewMaxSureSaniyeHeight"
+        android:layout_marginEnd="@dimen/activityMuzikDetayTextViewMaxSureSaniyeMarginEnd"
+        android:text="@string/activityMuzikDetayTextViewAnlikSureSaniye"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activityMuzikDetayTextViewAnlikSureSaniyeTextSize"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarMuzikSure"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarMuzikSure" />
+
+    <TextView
+        android:id="@+id/textViewAnlikSureSaniye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activityMuzikDetayTextViewAnlikSureSaniye"
+        android:textColor="@color/white"
+        android:textSize="@dimen/activityMuzikDetayTextViewAnlikSureSaniyeTextSize"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <SeekBar
+        android:id="@+id/seekBarMuzikSure"
+        style="@style/MySeekBar"
+        android:layout_width="@dimen/activityMuzikDetayTextViewSeekBarWidth"
+        android:layout_height="@dimen/activityMuzikDetayTextViewSeekBarHeight"
+        android:layout_marginTop="@dimen/activityMuzikDetayTextViewSeekBarMarginTop"
+        android:layout_marginEnd="@dimen/activityMuzikDetayTextViewSeekBarMarginEnd"
+        android:max="100"
+        android:progress="0"
+        android:thumb="@drawable/seek_bar_thumb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textViewSarkici"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSarkici" />
+
+    <ImageView
+        android:id="@+id/imageViewFavori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMuzik"
+        app:layout_constraintTop_toTopOf="@+id/textViewMuzikAdi"
+        app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
+
+    <ImageView
+        android:id="@+id/imageViewPlayPause"
+        android:layout_width="@dimen/activityMuzikDetayImageViewPauseWidth"
+        android:layout_height="@dimen/activityMuzikDetayImageViewPauseHeight"
+        android:layout_marginTop="@dimen/activityMuzikDetayImageViewPauseMarginTop"
+        app:layout_constraintEnd_toEndOf="@+id/seekBarMuzikSure"
+        app:layout_constraintStart_toStartOf="@+id/seekBarMuzikSure"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarMuzikSure"
+        app:srcCompat="@drawable/ic_baseline_pause_circle_filled_24" />
+
+    <ImageView
+        android:id="@+id/imageViewSonraki"
+        android:layout_width="@dimen/activityMuzikDetayImageViewSonrakiWidth"
+        android:layout_height="@dimen/activityMuzikDetayImageViewSonrakiHeight"
+        android:layout_marginStart="@dimen/activityMuzikDetayImageViewSonrakiMarginStart"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPlayPause"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPlayPause"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPlayPause"
+        app:srcCompat="@drawable/ic_baseline_skip_next_24" />
+
+    <ImageView
+        android:id="@+id/imageViewOnceki"
+        android:layout_width="@dimen/activityMuzikDetayImageViewOncekiWidth"
+        android:layout_height="@dimen/activityMuzikDetayImageViewOncekiHeight"
+        android:layout_marginEnd="@dimen/activityMuzikDetayImageViewOncekiMarginEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPlayPause"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewPlayPause"
+        app:layout_constraintTop_toTopOf="@+id/imageViewPlayPause"
+        app:srcCompat="@drawable/ic_baseline_skip_previous_24" />
+
+    <ImageView
+        android:id="@+id/imageViewMuzikEngelle"
+        android:layout_width="@dimen/activityMuzikDetayImageViewEngelleWidth"
+        android:layout_height="@dimen/activityMuzikDetayImageViewEngelleHeight"
+        android:layout_marginStart="@dimen/activityMuzikDetayImageViewEngelleMarginStart"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSonraki"
+        app:layout_constraintStart_toEndOf="@+id/imageViewSonraki"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSonraki"
+        app:srcCompat="@drawable/ic_baseline_block_24" />
+
+    <ImageView
+        android:id="@+id/imageViewKaristir"
+        android:layout_width="@dimen/activityMuzikDetayImageViewKaristirWidth"
+        android:layout_height="@dimen/activityMuzikDetayImageViewKaristirHeight"
+        android:layout_marginEnd="@dimen/activityMuzikDetayImageViewKaristirMarginEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewOnceki"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewOnceki"
+        app:layout_constraintTop_toTopOf="@+id/imageViewOnceki"
+        app:srcCompat="@drawable/ic_shuffle" />
+
+    <ImageView
+        android:id="@+id/imageViewPaylas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activityMuzikDetayImageViewPaylasMarginTop"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMuzikEngelle"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMuzikEngelle"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMuzikEngelle"
+        app:srcCompat="@drawable/ic_baseline_ios_share_24" />
+
+    <ImageView
+        android:id="@+id/imageViewCihazPaylas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activityMuzikDetayImageViewCihazPaylasMarginTop"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewKaristir"
+        app:layout_constraintStart_toStartOf="@+id/imageViewKaristir"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewKaristir"
+        app:srcCompat="@drawable/ic_baseline_devices_24" />
+
+    <ImageView
+        android:id="@+id/imageViewBackPress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activityMuzikDetayImageViewGeriMarginTop"
+        app:layout_constraintStart_toStartOf="@+id/imageViewMuzik"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activityMuzikDetayImageViewNoktalarMarginTop"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewMuzik"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_more_horiz_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
