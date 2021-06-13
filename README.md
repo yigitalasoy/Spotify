@@ -14,7 +14,7 @@ Müzik kategorileri ve ilgili kategoriye ait müzikler listelenmektedir. Müzikl
 
 
 ## Outputs
-<img src="https://raw.githubusercontent.com/yigitalasoy/Spotify/main/screens/spotify.gif" height="460" />
+<img src="" height="460" />
 
 
 ## Clean Simple Architecture
