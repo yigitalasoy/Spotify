@@ -18,12 +18,14 @@ Müzik kategorileri ve ilgili kategoriye ait müzikler listelenmektedir. Müzikl
 
 
 ## Clean Simple Architecture
-<img src="https://raw.githubusercontent.com/yigitalasoy/Spotify/main/data/images/MimariPaketYapisi.png" height="300" />
+<img src="https://raw.githubusercontent.com/yigitalasoy/Spotify/main/data/images/MimariPaketYapisi.png" height="700" />
 
 
-
-
-
+## Libraries and tools 🛠
+<li><a href="https://github.com/square/retrofit">Retrofit2</a></li>
+<li><a href="https://github.com/Kotlin/kotlinx.coroutines">Kotlin Coroutines</a></li>
+<li><a href="https://github.com/bumptech/glide">Glide</a></li>
+<li><a href="https://github.com/square/okhttp">Okhttp</a></li>
 
 
 
