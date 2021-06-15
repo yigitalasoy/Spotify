@@ -71,8 +71,8 @@ class MuzikDetayActivity : AppCompatActivity() {
                 override fun onProgressChanged(seekBar: SeekBar, progress: Int,
                                                fromUser: Boolean) {
 
-                    muzikAnlikDakika = progress / 60;
-                    muzikAnlikSaniye = progress - (muzikAnlikDakika * 60);
+                    muzikAnlikDakika = progress / Constants.MUZIK_DETAY_SAAT_DAKIKA;
+                    muzikAnlikSaniye = progress - (muzikAnlikDakika * Constants.MUZIK_DETAY_SAAT_DAKIKA);
 
                     muzikAnlikSure = progress
 
@@ -107,15 +107,15 @@ class MuzikDetayActivity : AppCompatActivity() {
     fun gelenMuzigiListele(){
         binding.apply {
             textViewMuzikAdi.text=tasinanMuzik?.muzikAdi
-            textViewDinlenmeSayisi.text=tasinanMuzik?.muzikDetay?.dinlenmeSayisi+" dinlenme"
+            textViewDinlenmeSayisi.text=tasinanMuzik?.muzikDetay?.dinlenmeSayisi+Constants.MUZIK_DETAY_DINLENME_TEXTBOX
             textViewCikisYili.text=tasinanMuzik?.muzikDetay?.cikisYili
             textViewSarkici.text=tasinanMuzik?.sarkici
             glideUtil.UrldekiResmiAl(tasinanMuzik?.resim.toString(),applicationContext,imageViewMuzik)
 
-            muzikDakika = Integer.parseInt(tasinanMuzik?.muzikDetay?.süresi?.split(":")?.get(0))
-            muzikSaniye = Integer.parseInt(tasinanMuzik?.muzikDetay?.süresi?.split(":")?.get(1))
+            muzikDakika = Integer.parseInt(tasinanMuzik?.muzikDetay?.süresi?.split(":")?.get(Constants.MUZIK_DETAY_TEXTBOX_DAKIKA_ID))
+            muzikSaniye = Integer.parseInt(tasinanMuzik?.muzikDetay?.süresi?.split(":")?.get(Constants.MUZIK_DETAY_TEXTBOX_SANIYE_ID))
 
-            muzikSuresi = muzikDakika * 60
+            muzikSuresi = muzikDakika * Constants.MUZIK_DETAY_SAAT_DAKIKA
             muzikSuresi += muzikSaniye
 
             seekBarMuzikSure.max = muzikSuresi
@@ -127,14 +127,14 @@ class MuzikDetayActivity : AppCompatActivity() {
     }
 
     fun sureyiTanimla(){
-        timer = object: CountDownTimer(muzikSuresi.toLong()*1000, 1000){
+        timer = object: CountDownTimer(muzikSuresi.toLong()*Constants.MUZIK_DETAY_BEKLEME_SURESI, Constants.MUZIK_DETAY_BEKLEME_SURESI){
             override fun onTick(millisUntilFinished: Long) {
 
                 if(muzikAnlikSure < muzikSuresi){
                     muzikAnlikSure++
-                    binding.textViewAnlikSureDakika.text = (muzikAnlikSure / 60).toString()
-                    binding.textViewAnlikSureSaniye.text = (muzikAnlikSure - (Integer.parseInt(binding.textViewAnlikSureDakika.text.toString()) * 60)).toString()
-                    binding.seekBarMuzikSure.progress = binding.seekBarMuzikSure.progress + 1
+                    binding.textViewAnlikSureDakika.text = (muzikAnlikSure / Constants.MUZIK_DETAY_SAAT_DAKIKA).toString()
+                    binding.textViewAnlikSureSaniye.text = (muzikAnlikSure - (Integer.parseInt(binding.textViewAnlikSureDakika.text.toString()) * Constants.MUZIK_DETAY_SAAT_DAKIKA)).toString()
+                    binding.seekBarMuzikSure.progress = binding.seekBarMuzikSure.progress + Constants.MUZIK_DETAY_SEEKBAR_ILERLEME
 
                 } else {
                     timer.onFinish()
